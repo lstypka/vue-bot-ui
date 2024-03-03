@@ -58,5 +58,8 @@
     "url": "https://github.com/JuzSer/vue-bot-ui/issues"
   },
   "homepage": "https://github.com/JuzSer/vue-bot-ui#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
 }
