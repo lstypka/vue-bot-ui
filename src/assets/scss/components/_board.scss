@@ -4,7 +4,8 @@
   position: absolute;
   right: 0;
   overflow: hidden;
-  width: $board-width;
+  min-width: $board-width;
+  max-width: 90vw;
   height: 80vh;
   margin-bottom: 10px;
   border-radius: $board-radius;
