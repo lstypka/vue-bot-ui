@@ -3,9 +3,8 @@
   .qkb-msg-bubble-component__text <div v-html="convertToHtml()"></div>
 </template>
 <script>
-const showdown = require('showdown');
-const converter = new showdown.Converter();
-
+const showdown = require('showdown')
+const converter = new showdown.Converter()
 
 export default {
   components: {
@@ -16,7 +15,7 @@ export default {
     }
   },
   methods: {
-    convertToHtml() {
+    convertToHtml () {
       return converter.makeHtml(this.mainData.text)
     }
 
